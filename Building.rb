@@ -25,7 +25,7 @@ class Building
     end
 
     def placard
-        "#{@name} - #{address}"
+        "#{@name} - #{@address}"
     end
 
     def self.placards
